@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.red{
+  background-color:red;
+  height:50px;
+  width:100%;
+}
+
+.orange{
+  background-color: orange;
+  height:500px;
+  width: 100%;
+}
+
+.lightgreen{
+  background-color: palegreen;
+  height:1400px;
+  width:960px;
+  margin:0 auto;
+}
+
+.green{
+  background-color: green;
+  width: 500px;
+  height:1400px;
+  margin-right: 230px;
+  margin-left: 230px;
+}
+
+.blue{
+  background-color: blue;
+  height: 100px;
+}
