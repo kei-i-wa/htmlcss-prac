@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%; /* 横幅100% */
+  height: 70px; /* 高さ70px */
+  background-color: #EC715F; /* 背景色をカラーコードで指定 */
+}
+
+/* 以下を追加 */
+.heading img{
+  height: 70px; /* 高さ70px */
+}
+
+nav{
+  width:960px;
+  height:70px;
+  margin:0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav>:first-child{
+  margin-right: auto;
+}
+
+.nav-list{
+  width: 560px; /* 横幅56px */
+  display: flex; /* flexboxを設定 */
+  justify-content: flex-end; /* 要素を右詰めで順に並べるように設定する */
+}
+
+.nav-list-item{
+  margin: 0 30px; /* 上下に0pxの隙間、左右に30pxずつの隙間を発生させる。 */
+  list-style: none; /* li使用時に発生する黒丸を削除 */
+  line-height: 70px; /* 行の高さを70pxに設定し、縦方向に中央寄せで文字を配置する */
+  text-align: center; /* 横方向に中央寄せで文字を配置する。*/
+  color: white; /* 文字色を白に変更 */
+}
+
+.main-visual{ 
+  width: 100%; /* 横幅いっぱい */
+  height: 650px; /* 高さ650px */
+}
+
+.main-visual-text{
+  width: 650px; /* 横幅650px */
+  height: 650px; /* 高さ650px */
+  margin: 0 auto; /* 中央寄せ */
+}
+
+.main{
+  width: 100%; /* 横幅いっぱい */
+  height: 1000px; /* 高さ1000px */
+}
+
+.main-text{
+  width: 930px; /* 横幅930px */
+  height: 250px; /* 高さ250px */
+  margin: 0 auto; /* 中央寄せ */
+}
+
+.main-contents{
+  width: 930px; /* 横幅930px */
+  height: 750px; /* 高さ750px */
+  margin: 0 auto; /* 中央寄せ */
+  display: flex; /* Flexboxを設定 */
+  flex-wrap: wrap; /* 子要素が親要素の横幅いっぱいに配置されたら改行し、下に配置し始める設定 */
+}
+
+
+.main-contents-box{
+  width: 300px; /* 横幅300px */
+  height: 300px; /* 高さ300px */
+  margin:5px; /* 四方に隙間を5px設定 */
+}
+
+
+
+footer {
+  width: 100%; /* 横幅100% */
+  height: 60px; /* 高さ60px */
+  text-align: center; /* 横方向に中央寄せで文字を配置する。*/
+  line-height: 60px; /* 行の高さを60pxに設定し、縦方向に中央寄せで文字を配置する */
+  background-color: #EC715F; /* 背景色をカラーコードで指定 */
+}
+
+.footer-text {
+  color: white; /* 文字色を白に設定 */
+}
